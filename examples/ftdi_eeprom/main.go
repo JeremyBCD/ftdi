@@ -3,8 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/ziutek/ftdi"
 	"os"
+
+	"github.com/bcdevices/ftdi"
 )
 
 func checkErr(err error) {
