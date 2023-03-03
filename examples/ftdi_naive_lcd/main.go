@@ -6,12 +6,16 @@
 // DTR# (DBUS4) <--> E
 // DSR# (DBUS5) <--> R/W#
 // DCD# (DBUS6) <--> RS
+
+//go:build cgo
+
 package main
 
 import (
-	"github.com/ziutek/ftdi"
 	"log"
 	"time"
+
+	"github.com/bcdevices/ftdi"
 )
 
 func checkErr(err error) {

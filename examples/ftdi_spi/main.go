@@ -1,9 +1,11 @@
+//go:build cgo
+
 package main
 
 import (
 	"log"
 
-	"github.com/ziutek/ftdi"
+	"github.com/bcdevices/ftdi"
 )
 
 func main() {

@@ -1,7 +1,9 @@
+//go:build cgo
+
 package main
 
 import (
-	"github.com/ziutek/ftdi"
+	"github.com/bcdevices/ftdi"
 	"log"
 	"time"
 )

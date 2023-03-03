@@ -1,10 +1,13 @@
+//go:build cgo
+
 package main
 
 import (
 	"fmt"
-	"github.com/ziutek/ftdi"
 	"os"
 	"strconv"
+
+	"github.com/bcdevices/ftdi"
 )
 
 func errorExit(err error) {
