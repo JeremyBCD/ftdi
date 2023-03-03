@@ -1,9 +1,12 @@
+//go:build cgo
+
 package main
 
 import (
-	"github.com/ziutek/ftdi"
 	"log"
 	"time"
+
+	"github.com/bcdevices/ftdi"
 )
 
 func checkErr(err error) {
