@@ -6,6 +6,9 @@
 // DTR# (DBUS4) <--> E
 // DSR# (DBUS5) <--> R/W#
 // DCD# (DBUS6) <--> RS
+
+//go:build cgo
+
 package main
 
 import (
